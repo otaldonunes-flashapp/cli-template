@@ -1,0 +1,20 @@
+{
+  "name": "cli-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@clerc/plugin-completions": "^0.42.2",
+    "@clerc/plugin-friendly-error": "^0.42.2",
+    "@clerc/plugin-help": "^0.42.2",
+    "@clerc/plugin-not-found": "^0.42.2",
+    "@clerc/plugin-strict-flags": "^0.42.2",
+    "@clerc/plugin-version": "^0.42.2",
+    "clerc": "^0.42.2"
+  }
+}
